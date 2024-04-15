@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "lato";
+    src: url(../font/Lato-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "lato";
+    height: 100vh;
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2F5F9;
+    color: #677489;
+}
+
+.container {
+    width: 368px;
+    height: fit-content;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    position: relative;
+}
+
+.contenido {
+    padding: 30px;
+    position: relative;
+}
+
+img.hero-img {
+    width: 100%;
+    border-radius: 16px 16px 0px 0px;
+}
+
+img.heroSvg-img {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-top: 190px;
+}
+
+h1,
+h2 {
+    color: #111729;
+}
+
+p.description {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.border {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid #677489;
+}
+
+.infoUser {
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.infoUser img {
+    width: 12%;
+    border-radius: 100%;
+    float: left;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.infoUser h3 {
+    color: #111729;
+    margin-top: 40px;
+}
+
+.infoUser p {
+    font-size: small;
+}
